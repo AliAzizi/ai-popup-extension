@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Manager</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <div class="popup-wrapper">
+    <h1 class="title">AI Popup</h1>
+
+    <div class="tutorial-card">
+      <p class="tutorial-text">
+        Check this extension on <a href="https://github.com/AliAzizi">GitHub</a>
+      </p>
+      <h2 class="tutorial-title">How to Use</h2>
+
+      <p class="tutorial-text">
+        The <code class="inline-code">$text</code> placeholder will be replaced with the highlighted text. Example:
+      </p>
+      <pre class="tutorial-example">Provide the Persian translation for the following:
+$text</pre>
+    </div>
+
+    <div id="rows-container" class="rows-container"></div>
+    <div class="footer-actions">
+      <button id="add-row" class="btn btn-outline">
+        <svg class="icon" viewBox="0 0 24 24" width="18" height="18">
+          <path fill="currentColor"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" />
+        </svg>
+        Add Prompt
+      </button>
+      <button id="save" class="btn btn-primary">Save</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast">Prompts saved successfully!</div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
