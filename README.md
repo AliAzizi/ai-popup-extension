@@ -2,6 +2,8 @@
 
 Tired of switching tabs and copying/pasting text every time you need a translation, summary, or context? So was I! Instead of dealing with that hassle, I built this extension to streamline the process.
 
+![image](https://github.com/user-attachments/assets/b5d73211-a697-413f-8728-ebacda7a18b4)
+
 ### Features
 
 - **Custom Prompts**: Define your own tasks like translation, summarization, and more.
@@ -15,3 +17,9 @@ After getting tired of constantly copying, switching tabs, and pasting text for 
 ---
 
 Feel free to use and enjoy—just don’t expect perfection, I built this for *me* after all. 😉
+
+
+
+![image](https://github.com/user-attachments/assets/e9c0350d-da13-4930-9d28-e96d4df6429f)
+
+![image](https://github.com/user-attachments/assets/948f73ba-8bce-4b84-b6e0-fdf59b53404f)
